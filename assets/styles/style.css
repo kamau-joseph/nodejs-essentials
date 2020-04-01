@@ -1,0 +1,99 @@
+/*
+Joseph Kamau
+www.josephkamau.com
+*/
+
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/Helvetica-Normal.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	outline:none;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    color: #012943;
+    font-weight: 400;
+    line-height: 2em;
+}
+p{
+	font-family: 'Helvetica', sans-serif;
+	margin: 0px;
+	font-size: 15px;
+	color: #012943;
+	padding-top: 10px;
+	font-weight: 400;
+	line-height: 2em;
+}
+h1{
+    font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	line-height: 1.3em;
+	font-weight: 450;
+	text-transform: uppercase;
+	color: #012943;
+}
+h2{
+    font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	font-weight: 700;
+	color: #0c8040;
+}
+
+h3{
+  font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: 300;
+	color: #000;
+}
+
+strong, b{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+}
+i{font-style: italic;}
+img{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+	transition: .3s;
+	color: #0c8040;
+}
+a:hover{
+	color: #000;
+}
+nav ul li{
+	list-style-type: none;
+  display: inline-block;
+}
+.all{width: 100%; float: left; position: relative;}
+.jose{margin: auto; float: none; width: 70%;}
